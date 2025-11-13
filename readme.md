@@ -2,9 +2,6 @@
 
 This repository contains tools and scripts for evaluating and defending against vision injection attacks towards VLAS. The workflow involves generating ground truth (GT) data, running attacks, evaluating the attacks, applying defenses, and evaluating the defenses.
 
-
-## Embodied Performance
-
 ## Environment Install
 The environment used in this repository can be downloaded by:
 
