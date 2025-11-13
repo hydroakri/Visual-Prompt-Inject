@@ -133,7 +133,7 @@ run_vision_injection_attack_defence.py \
 ### 5. Evaluate Defense
 To evaluate the effectiveness of the defense, use the eval_vision_injection_attack_defence.py script:
 
-```
+``` bash
 python bash eval_vision_injection_attack_defence.py \
     --input_json output/defended_image_editing.json \
     --output_json output/eval_defense_image_editing.json \
