@@ -1,0 +1,1001 @@
+[
+  {
+    "image": "000.jpg",
+    "instruction": "Replace the woman with a mannequin wearing a sparkling dress."
+  },
+  {
+    "image": "000.jpg",
+    "instruction": "Blur the background to emphasize the woman in the foreground."
+  },
+  {
+    "image": "000.jpg",
+    "instruction": "Make only the woman's dress colorful and grayscale the rest."
+  },
+  {
+    "image": "000.jpg",
+    "instruction": "Add a star emoji on the womans shoulder."
+  },
+  {
+    "image": "000.jpg",
+    "instruction": "Crop the image to only show the woman from the waist up."
+  },
+  {
+    "image": "001.jpg",
+    "instruction": "Replace the largest hot air balloon with a giant red apple."
+  },
+  {
+    "image": "001.jpg",
+    "instruction": "Make only the central hot air balloon colorful and grayscale the rest."
+  },
+  {
+    "image": "001.jpg",
+    "instruction": "Blur the background landscape while keeping all balloons sharp."
+  },
+  {
+    "image": "001.jpg",
+    "instruction": "Add a sun emoji to the top-right corner of the sky."
+  },
+  {
+    "image": "001.jpg",
+    "instruction": "Crop the image to only show the central balloon and sky."
+  },
+  {
+    "image": "002.jpg",
+    "instruction": "Replace the moon with a floating lantern."
+  },
+  {
+    "image": "002.jpg",
+    "instruction": "Make only the mountain peaks colorful and grayscale the sky and forest."
+  },
+  {
+    "image": "002.jpg",
+    "instruction": "Blur the forest area to draw attention to the glowing mountains."
+  },
+  {
+    "image": "002.jpg",
+    "instruction": "Add a fire emoji near the moon."
+  },
+  {
+    "image": "002.jpg",
+    "instruction": "Crop the image to focus only on the mountain peaks and moon."
+  },
+  {
+    "image": "003.jpg",
+    "instruction": "Replace the woman with a marble statue in the same pose."
+  },
+  {
+    "image": "003.jpg",
+    "instruction": "Make only the flowers on the table colorful and grayscale the rest."
+  },
+  {
+    "image": "003.jpg",
+    "instruction": "Blur the background buildings while keeping the woman and table clear."
+  },
+  {
+    "image": "003.jpg",
+    "instruction": "Add a heart emoji near the womans head."
+  },
+  {
+    "image": "003.jpg",
+    "instruction": "Crop the image to show just the woman and the flower vase."
+  },
+  {
+    "image": "004.jpg",
+    "instruction": "Replace the biker with a silhouette of a bird in flight."
+  },
+  {
+    "image": "004.jpg",
+    "instruction": "Make only the bike colorful and grayscale the rest of the scene."
+  },
+  {
+    "image": "004.jpg",
+    "instruction": "Blur the city background while keeping the biker sharp."
+  },
+  {
+    "image": "004.jpg",
+    "instruction": "Add a fire emoji on the bikers helmet."
+  },
+  {
+    "image": "004.jpg",
+    "instruction": "Crop the image to show only the biker and the rail."
+  },
+  {
+    "image": "005.jpg",
+    "instruction": "Replace the person walking with a snowman."
+  },
+  {
+    "image": "005.jpg",
+    "instruction": "Make only the sunlight area in the forest colorful and grayscale the rest."
+  },
+  {
+    "image": "005.jpg",
+    "instruction": "Blur the trees in the background while keeping the path clear."
+  },
+  {
+    "image": "005.jpg",
+    "instruction": "Add a snowflake emoji above the person."
+  },
+  {
+    "image": "005.jpg",
+    "instruction": "Crop the image to focus on the illuminated part of the snowy path."
+  },
+  {
+    "image": "006.jpg",
+    "instruction": "Replace the two birds with butterflies."
+  },
+  {
+    "image": "006.jpg",
+    "instruction": "Make only the nest colorful and grayscale the surrounding snow."
+  },
+  {
+    "image": "006.jpg",
+    "instruction": "Blur the background trees and keep the birds sharp."
+  },
+  {
+    "image": "006.jpg",
+    "instruction": "Add a heart emoji above the birds."
+  },
+  {
+    "image": "006.jpg",
+    "instruction": "Crop the image to focus only on the birds and nest."
+  },
+  {
+    "image": "007.jpg",
+    "instruction": "Replace the man with a robot carrying a basket."
+  },
+  {
+    "image": "007.jpg",
+    "instruction": "Make only the fruits colorful and grayscale everything else."
+  },
+  {
+    "image": "007.jpg",
+    "instruction": "Blur the background grocery store while keeping the man clear."
+  },
+  {
+    "image": "007.jpg",
+    "instruction": "Add a smile emoji above the mans head."
+  },
+  {
+    "image": "007.jpg",
+    "instruction": "Crop the image to show just the man and fruit baskets."
+  },
+  {
+    "image": "008.jpg",
+    "instruction": "Replace the woman with a mannequin in a business suit."
+  },
+  {
+    "image": "008.jpg",
+    "instruction": "Make only the wall emblem colorful and grayscale the rest."
+  },
+  {
+    "image": "008.jpg",
+    "instruction": "Blur the background wall while keeping the woman sharp."
+  },
+  {
+    "image": "008.jpg",
+    "instruction": "Add a star emoji above the womans head."
+  },
+  {
+    "image": "008.jpg",
+    "instruction": "Crop the image to show the woman and the golden emblem."
+  },
+  {
+    "image": "009.jpg",
+    "instruction": "Replace the woman with a statue overlooking the bridge."
+  },
+  {
+    "image": "009.jpg",
+    "instruction": "Make only the Golden Gate Bridge colorful and grayscale the rest."
+  },
+  {
+    "image": "009.jpg",
+    "instruction": "Blur the ocean background and keep the woman sharp."
+  },
+  {
+    "image": "009.jpg",
+    "instruction": "Add a heart emoji near the woman's hair clip."
+  },
+  {
+    "image": "009.jpg",
+    "instruction": "Crop the image to show only the woman and bridge."
+  },
+  {
+    "image": "010.jpg",
+    "instruction": "Replace the man in the striped suit with a jazz-playing robot."
+  },
+  {
+    "image": "010.jpg",
+    "instruction": "Blur the background and make only the man in the center sharp."
+  },
+  {
+    "image": "010.jpg",
+    "instruction": "Make only the bass instrument colorful and grayscale the rest."
+  },
+  {
+    "image": "010.jpg",
+    "instruction": "Add a music note emoji near the bass players hands."
+  },
+  {
+    "image": "010.jpg",
+    "instruction": "Crop the image to show only the man standing in the center."
+  },
+  {
+    "image": "011.jpg",
+    "instruction": "Replace the diver with a dolphin swimming upward."
+  },
+  {
+    "image": "011.jpg",
+    "instruction": "Blur the rocky cave walls while keeping the diver and light rays sharp."
+  },
+  {
+    "image": "011.jpg",
+    "instruction": "Make only the sunlight rays underwater colorful and grayscale the rest."
+  },
+  {
+    "image": "011.jpg",
+    "instruction": "Add a water droplet emoji above the diver."
+  },
+  {
+    "image": "011.jpg",
+    "instruction": "Crop the image to show the diver."
+  },
+  {
+    "image": "012.jpg",
+    "instruction": "Replace the squirrel with a small deer."
+  },
+  {
+    "image": "012.jpg",
+    "instruction": "Make only the squirrel colorful and grayscale the background forest."
+  },
+  {
+    "image": "012.jpg",
+    "instruction": "Blur the trees in the background and keep the squirrel sharp."
+  },
+  {
+    "image": "012.jpg",
+    "instruction": "Add a leaf emoji above the squirrel."
+  },
+  {
+    "image": "012.jpg",
+    "instruction": "Crop the image to focus on the squirrel and its reflection."
+  },
+  {
+    "image": "013.jpg",
+    "instruction": "Replace the house with a castle in the same style."
+  },
+  {
+    "image": "013.jpg",
+    "instruction": "Make only the flowers colorful and grayscale the rest."
+  },
+  {
+    "image": "013.jpg",
+    "instruction": "Blur the background hills while keeping the house and flowers sharp."
+  },
+  {
+    "image": "013.jpg",
+    "instruction": "Add a sun emoji above the house."
+  },
+  {
+    "image": "013.jpg",
+    "instruction": "Crop the image to show the house."
+  },
+  {
+    "image": "014.jpg",
+    "instruction": "Replace the woman with a classical sculpture in the same pose."
+  },
+  {
+    "image": "014.jpg",
+    "instruction": "Make only the fireplace colorful and grayscale the rest."
+  },
+  {
+    "image": "014.jpg",
+    "instruction": "Blur the background bookshelves while keeping the woman sharp."
+  },
+  {
+    "image": "014.jpg",
+    "instruction": "Add a heart emoji near the womans face."
+  },
+  {
+    "image": "014.jpg",
+    "instruction": "Crop the image to focus on the woman."
+  },
+  {
+    "image": "015.jpg",
+    "instruction": "Replace the purple flowers with cherry blossoms."
+  },
+  {
+    "image": "015.jpg",
+    "instruction": "Make only the stone street colorful and grayscale the buildings."
+  },
+  {
+    "image": "015.jpg",
+    "instruction": "Blur the buildings in the background while keeping the flowers sharp."
+  },
+  {
+    "image": "015.jpg",
+    "instruction": "Add a butterfly emoji near the flowers."
+  },
+  {
+    "image": "015.jpg",
+    "instruction": "Crop the image to show the central building and overhanging flowers."
+  },
+  {
+    "image": "016.jpg",
+    "instruction": "Replace the bicycles with scooters."
+  },
+  {
+    "image": "016.jpg",
+    "instruction": "Make only the suits colorful and grayscale the rest."
+  },
+  {
+    "image": "016.jpg",
+    "instruction": "Blur the background crowd while keeping the front cyclists sharp."
+  },
+  {
+    "image": "016.jpg",
+    "instruction": "Add a sunglasses emoji on the cyclist in the middle."
+  },
+  {
+    "image": "016.jpg",
+    "instruction": "Crop the image to focus on the three men in the front."
+  },
+  {
+    "image": "017.jpg",
+    "instruction": "Replace the woman with a marble statue facing the window."
+  },
+  {
+    "image": "017.jpg",
+    "instruction": "Make only the dress colorful and grayscale the background."
+  },
+  {
+    "image": "017.jpg",
+    "instruction": "Blur the background floor and walls while keeping the woman sharp."
+  },
+  {
+    "image": "017.jpg",
+    "instruction": "Add a star emoji near her earrings."
+  },
+  {
+    "image": "017.jpg",
+    "instruction": "Crop the image to focus on the upper body and face of the woman."
+  },
+  {
+    "image": "018.jpg",
+    "instruction": "Replace the boy with a surreal robotic figure in the same pose."
+  },
+  {
+    "image": "018.jpg",
+    "instruction": "Make only the sky colorful and grayscale the boy and background."
+  },
+  {
+    "image": "018.jpg",
+    "instruction": "Blur the flying birds and keep the boy's face clear."
+  },
+  {
+    "image": "018.jpg",
+    "instruction": "Add a moon emoji above the boys head."
+  },
+  {
+    "image": "018.jpg",
+    "instruction": "Crop the image to show the boy and the rising tower behind him."
+  },
+  {
+    "image": "019.jpg",
+    "instruction": "Replace the woman in purple with a scientist in a lab coat."
+  },
+  {
+    "image": "019.jpg",
+    "instruction": "Make only the purple dress colorful and grayscale the rest."
+  },
+  {
+    "image": "019.jpg",
+    "instruction": "Blur the people in the background and keep the woman sharp."
+  },
+  {
+    "image": "019.jpg",
+    "instruction": "Add a heart emoji above the smiling woman."
+  },
+  {
+    "image": "019.jpg",
+    "instruction": "Crop the image to show only the front row of people."
+  },
+  {
+    "image": "020.jpg",
+    "instruction": "Replace the boy with a mime performing on the street."
+  },
+  {
+    "image": "020.jpg",
+    "instruction": "Make only the shoeshine box colorful and grayscale the rest."
+  },
+  {
+    "image": "020.jpg",
+    "instruction": "Blur the background people and keep the boy in sharp focus."
+  },
+  {
+    "image": "020.jpg",
+    "instruction": "Add a smile emoji above the boys head."
+  },
+  {
+    "image": "020.jpg",
+    "instruction": "Crop the image to show just the boy and the shoeshine box."
+  },
+  {
+    "image": "021.jpg",
+    "instruction": "Replace the penguins with snowmen lined up in a row."
+  },
+  {
+    "image": "021.jpg",
+    "instruction": "Make only the iceberg colorful and grayscale the penguins and snow."
+  },
+  {
+    "image": "021.jpg",
+    "instruction": "Blur the ocean background while keeping the penguins sharp."
+  },
+  {
+    "image": "021.jpg",
+    "instruction": "Add a snowflake emoji above the center penguin."
+  },
+  {
+    "image": "021.jpg",
+    "instruction": "Crop the image to show only the penguins and the iceberg arch."
+  },
+  {
+    "image": "022.jpg",
+    "instruction": "Replace the woman with a marble statue holding a flower."
+  },
+  {
+    "image": "022.jpg",
+    "instruction": "Make only the flower colorful and grayscale the rest of the image."
+  },
+  {
+    "image": "022.jpg",
+    "instruction": "Blur the people and buildings in the background while keeping the woman sharp."
+  },
+  {
+    "image": "022.jpg",
+    "instruction": "Add a heart emoji near the flower."
+  },
+  {
+    "image": "022.jpg",
+    "instruction": "Crop the image to show the woman and the flower she is smelling."
+  },
+  {
+    "image": "023.jpg",
+    "instruction": "Replace the mountains with floating rock formations."
+  },
+  {
+    "image": "023.jpg",
+    "instruction": "Make only the lake reflections colorful and grayscale the mountains."
+  },
+  {
+    "image": "023.jpg",
+    "instruction": "Blur the trees and mountains while keeping the houses and lake sharp."
+  },
+  {
+    "image": "023.jpg",
+    "instruction": "Add a fire emoji near the glowing cabin lights."
+  },
+  {
+    "image": "023.jpg",
+    "instruction": "Crop the image to focus on the lake and glowing reflections."
+  },
+  {
+    "image": "024.jpg",
+    "instruction": "Replace the man with a silhouette facing the sunset."
+  },
+  {
+    "image": "024.jpg",
+    "instruction": "Make only the sun colorful and grayscale the man and background."
+  },
+  {
+    "image": "024.jpg",
+    "instruction": "Blur the background landscape while keeping the mans face sharp."
+  },
+  {
+    "image": "024.jpg",
+    "instruction": "Add a moon emoji beside the sun."
+  },
+  {
+    "image": "024.jpg",
+    "instruction": "Crop the image to focus on the man's profile and sunset."
+  },
+  {
+    "image": "025.jpg",
+    "instruction": "Replace the two walking people with deer in the forest."
+  },
+  {
+    "image": "025.jpg",
+    "instruction": "Make only the trees colorful and grayscale the path."
+  },
+  {
+    "image": "025.jpg",
+    "instruction": "Blur the background trees while keeping the path and walkers clear."
+  },
+  {
+    "image": "025.jpg",
+    "instruction": "Add a leaf emoji above the peoples heads."
+  },
+  {
+    "image": "025.jpg",
+    "instruction": "Crop the image to show only the illuminated forest path."
+  },
+  {
+    "image": "026.jpg",
+    "instruction": "Replace the man in a suit with a cartoon superhero."
+  },
+  {
+    "image": "026.jpg",
+    "instruction": "Make only the red carpet colorful and grayscale the rest."
+  },
+  {
+    "image": "026.jpg",
+    "instruction": "Blur the background people while keeping the family in front sharp."
+  },
+  {
+    "image": "026.jpg",
+    "instruction": "Add a star emoji above the girls head in the pink jacket."
+  },
+  {
+    "image": "026.jpg",
+    "instruction": "Crop the image to show only the four people in the front row."
+  },
+  {
+    "image": "027.jpg",
+    "instruction": "Replace the rock in the foreground with a small island."
+  },
+  {
+    "image": "027.jpg",
+    "instruction": "Make only the mountain tops colorful and grayscale the lake."
+  },
+  {
+    "image": "027.jpg",
+    "instruction": "Blur the distant mountains and keep the water reflection sharp."
+  },
+  {
+    "image": "027.jpg",
+    "instruction": "Add a sun emoji in the sky above the peaks."
+  },
+  {
+    "image": "027.jpg",
+    "instruction": "Crop the image to show only the lake and rocky foreground."
+  },
+  {
+    "image": "028.jpg",
+    "instruction": "Replace the girl with a marble statue holding a dove."
+  },
+  {
+    "image": "028.jpg",
+    "instruction": "Make only the dove colorful and grayscale the rest of the scene."
+  },
+  {
+    "image": "028.jpg",
+    "instruction": "Blur the tree leaves while keeping the girl and gravestone sharp."
+  },
+  {
+    "image": "028.jpg",
+    "instruction": "Add a heart emoji above the dove."
+  },
+  {
+    "image": "028.jpg",
+    "instruction": "Crop the image to focus on the girl, dove, and gravestone."
+  },
+  {
+    "image": "029.jpg",
+    "instruction": "Replace the gondola with a floating market boat."
+  },
+  {
+    "image": "029.jpg",
+    "instruction": "Make only the water reflections colorful and grayscale the buildings."
+  },
+  {
+    "image": "029.jpg",
+    "instruction": "Blur the background buildings while keeping the canal sharp."
+  },
+  {
+    "image": "029.jpg",
+    "instruction": "Add a sun emoji above the bridge."
+  },
+  {
+    "image": "029.jpg",
+    "instruction": "Crop the image to show only the canal and the arched bridge."
+  },
+  {
+    "image": "030.jpg",
+    "instruction": "Replace the woman with a marble bust sculpture."
+  },
+  {
+    "image": "030.jpg",
+    "instruction": "Make only the lace dress colorful and grayscale the background."
+  },
+  {
+    "image": "030.jpg",
+    "instruction": "Blur the background while keeping the woman's face sharp."
+  },
+  {
+    "image": "030.jpg",
+    "instruction": "Add a heart emoji above her shoulder."
+  },
+  {
+    "image": "030.jpg",
+    "instruction": "Crop the image to show only the face and upper torso."
+  },
+  {
+    "image": "031.jpg",
+    "instruction": "Replace the umbrellas with balloons."
+  },
+  {
+    "image": "031.jpg",
+    "instruction": "Make only the sea colorful and grayscale the people."
+  },
+  {
+    "image": "031.jpg",
+    "instruction": "Blur the background sky while keeping the people sharp."
+  },
+  {
+    "image": "031.jpg",
+    "instruction": "Add a sun emoji above the group."
+  },
+  {
+    "image": "031.jpg",
+    "instruction": "Crop the image to show just the people and their reflections."
+  },
+  {
+    "image": "032.jpg",
+    "instruction": "Replace the woman with a porcelain doll in a similar pose."
+  },
+  {
+    "image": "032.jpg",
+    "instruction": "Make only the lips colorful and grayscale the rest of the image."
+  },
+  {
+    "image": "032.jpg",
+    "instruction": "Blur the background while keeping the face and earrings sharp."
+  },
+  {
+    "image": "032.jpg",
+    "instruction": "Add a sparkle emoji near her cheek."
+  },
+  {
+    "image": "032.jpg",
+    "instruction": "Crop the image to highlight the lips and eyes."
+  },
+  {
+    "image": "033.jpg",
+    "instruction": "Replace the clouds with fireworks in the same position."
+  },
+  {
+    "image": "033.jpg",
+    "instruction": "Make only the sky colorful and grayscale the ground."
+  },
+  {
+    "image": "033.jpg",
+    "instruction": "Blur the distant mountains and keep the sky sharp."
+  },
+  {
+    "image": "033.jpg",
+    "instruction": "Add a fire emoji near the glowing cloud center."
+  },
+  {
+    "image": "033.jpg",
+    "instruction": "Crop the image to show the sky and tree silhouettes."
+  },
+  {
+    "image": "034.jpg",
+    "instruction": "Replace the ruined columns with glowing crystal towers."
+  },
+  {
+    "image": "034.jpg",
+    "instruction": "Make only the sunset colorful and grayscale the ruins."
+  },
+  {
+    "image": "034.jpg",
+    "instruction": "Blur the background sea while keeping the columns sharp."
+  },
+  {
+    "image": "034.jpg",
+    "instruction": "Add a moon emoji above the horizon."
+  },
+  {
+    "image": "034.jpg",
+    "instruction": "Crop the image to highlight the temple ruins and sunset sky."
+  },
+  {
+    "image": "035.jpg",
+    "instruction": "Replace the family with explorers in sci-fi suits."
+  },
+  {
+    "image": "035.jpg",
+    "instruction": "Make only the glowing plants colorful and grayscale the rest."
+  },
+  {
+    "image": "035.jpg",
+    "instruction": "Blur the background mountains and keep the family sharp."
+  },
+  {
+    "image": "035.jpg",
+    "instruction": "Add a rocket emoji above the floating islands."
+  },
+  {
+    "image": "035.jpg",
+    "instruction": "Crop the image to show only the family and nearby foliage."
+  },
+  {
+    "image": "036.jpg",
+    "instruction": "Replace the bridge with a modern steel structure."
+  },
+  {
+    "image": "036.jpg",
+    "instruction": "Make only the reflection in the water colorful and grayscale the sky."
+  },
+  {
+    "image": "036.jpg",
+    "instruction": "Blur the distant clouds and keep the temple sharp."
+  },
+  {
+    "image": "036.jpg",
+    "instruction": "Add a cloud emoji near the sky."
+  },
+  {
+    "image": "036.jpg",
+    "instruction": "Crop the image to show just the temple and its reflection."
+  },
+  {
+    "image": "037.jpg",
+    "instruction": "Replace the Eiffel Tower with a tall tree."
+  },
+  {
+    "image": "037.jpg",
+    "instruction": "Make only the flower stand colorful and grayscale the rest."
+  },
+  {
+    "image": "037.jpg",
+    "instruction": "Blur the background buildings while keeping the street and cafes sharp."
+  },
+  {
+    "image": "037.jpg",
+    "instruction": "Add a star emoji near the top of the tower."
+  },
+  {
+    "image": "037.jpg",
+    "instruction": "Crop the image to focus on the flower stand."
+  },
+  {
+    "image": "038.jpg",
+    "instruction": "Replace the forest with a fantasy cave full of crystals."
+  },
+  {
+    "image": "038.jpg",
+    "instruction": "Make only the beam of light colorful and grayscale the surroundings."
+  },
+  {
+    "image": "038.jpg",
+    "instruction": "Blur the foliage while keeping the waterfall sharp."
+  },
+  {
+    "image": "038.jpg",
+    "instruction": "Add a sparkle emoji in the light beam."
+  },
+  {
+    "image": "038.jpg",
+    "instruction": "Crop the image to focus on the opening and the stream."
+  },
+  {
+    "image": "039.jpg",
+    "instruction": "Replace the woman with a realistic sculpture."
+  },
+  {
+    "image": "039.jpg",
+    "instruction": "Make only the eyes colorful and grayscale the rest of the face."
+  },
+  {
+    "image": "039.jpg",
+    "instruction": "Blur the background gradient while keeping the face clear."
+  },
+  {
+    "image": "039.jpg",
+    "instruction": "Add a heart emoji near her neckline."
+  },
+  {
+    "image": "039.jpg",
+    "instruction": "Crop the image to focus on the eyes and hands."
+  },
+  {
+    "image": "040.jpg",
+    "instruction": "Replace the old armchair with a modern white couch."
+  },
+  {
+    "image": "040.jpg",
+    "instruction": "Blur the debris from the ground."
+  },
+  {
+    "image": "040.jpg",
+    "instruction": "Crop the image to focus on the old armchair."
+  },
+  {
+    "image": "040.jpg",
+    "instruction": "Add a star emoji above the old armchair."
+  },
+  {
+    "image": "040.jpg",
+    "instruction": "Make only the window shutters colorful and grayscale the rest."
+  },
+  {
+    "image": "041.jpg",
+    "instruction": "Replace the sunset with a starry night sky while keeping the mountain reflections."
+  },
+  {
+    "image": "041.jpg",
+    "instruction": "Replace the mountains with forest."
+  },
+  {
+    "image": "041.jpg",
+    "instruction": "Replace the sunset colors from orange to pink."
+  },
+  {
+    "image": "041.jpg",
+    "instruction": "Replace the largest rock from the center foreground to a bird."
+  },
+  {
+    "image": "041.jpg",
+    "instruction": "Crop the image to focus on the largest rock from the center foreground."
+  },
+  {
+    "image": "042.jpg",
+    "instruction": "Replace the church with a cozy wooden cabin."
+  },
+  {
+    "image": "042.jpg",
+    "instruction": "Pop the golden glow from the street lamps."
+  },
+  {
+    "image": "042.jpg",
+    "instruction": "Blur the farthest figures to enhance depth."
+  },
+  {
+    "image": "042.jpg",
+    "instruction": "crop the image to focus on the church."
+  },
+  {
+    "image": "042.jpg",
+    "instruction": "Relace the streetlights into the turn off ones."
+  },
+  {
+    "image": "043.jpg",
+    "instruction": "Replace the sky with a starry night sky while keeping the ocean intact."
+  },
+  {
+    "image": "043.jpg",
+    "instruction": "Blur the background palm trees to bring focus to the crashing wave."
+  },
+  {
+    "image": "043.jpg",
+    "instruction": "Replace the palm tree on the left with an apple tree one."
+  },
+  {
+    "image": "043.jpg",
+    "instruction": "Emphasize the wave color by popping the turquoise tones."
+  },
+  {
+    "image": "043.jpg",
+    "instruction": "Crop to focus on the wave crashing on rocks."
+  },
+  {
+    "image": "044.jpg",
+    "instruction": "Replace the model's black outfit with a red evening gown."
+  },
+  {
+    "image": "044.jpg",
+    "instruction": "Only keep the color for red heels."
+  },
+  {
+    "image": "044.jpg",
+    "instruction": "Change the color of the high heels to silver."
+  },
+  {
+    "image": "044.jpg",
+    "instruction": "Blur the background curtain to emphasize the subject."
+  },
+  {
+    "image": "044.jpg",
+    "instruction": "Add a heart emoji near the model's hand."
+  },
+  {
+    "image": "045.jpg",
+    "instruction": "Replace the fishing rod with a telescope."
+  },
+  {
+    "image": "045.jpg",
+    "instruction": "Highlight the man's beige outfit with ColorPop."
+  },
+  {
+    "image": "045.jpg",
+    "instruction": "Blur the distant ship to focus on the foreground."
+  },
+  {
+    "image": "045.jpg",
+    "instruction": "Crop to show only the man and the lamp post."
+  },
+  {
+    "image": "045.jpg",
+    "instruction": "Replace the sky with a sunset view."
+  },
+  {
+    "image": "046.jpg",
+    "instruction": "Replace the map with a digital tablet displaying a GPS route."
+  },
+  {
+    "image": "046.jpg",
+    "instruction": "Make only the vivid green moss on the rocks colorful."
+  },
+  {
+    "image": "046.jpg",
+    "instruction": "Blur the background mountains slightly to emphasize the foreground hiking path."
+  },
+  {
+    "image": "046.jpg",
+    "instruction": "Add a mountain emoji on top of the mountain peaks."
+  },
+  {
+    "image": "046.jpg",
+    "instruction": "Crop the image to focus on the lower half, emphasizing the map and compass."
+  },
+  {
+    "image": "047.jpg",
+    "instruction": "Replace the black metal kettle with a vintage porcelain teapot with blue floral patterns."
+  },
+  {
+    "image": "047.jpg",
+    "instruction": "Apply ColorPop to the green grapes to enhance their freshness and vibrance."
+  },
+  {
+    "image": "047.jpg",
+    "instruction": "Blur the background to draw more focus to the grapes and the kettle."},
+  {
+    "image": "047.jpg",
+    "instruction": "Add a grape emoji above the grapes to highlight the subject."
+  },
+  {
+    "image": "047.jpg",
+    "instruction": "Crop the image to center only on the grapes."
+  },
+  {
+    "image": "048.jpg",
+    "instruction": "Replace the red bridge with a traditional stone arch bridge."
+  },
+  {
+    "image": "048.jpg",
+    "instruction": "Highlight the temple on the left with ColorPop to make it stand out."
+  },
+  {
+    "image": "048.jpg",
+    "instruction": "Blur the distant mountains slightly to emphasize the foreground."
+  },
+  {
+    "image": "048.jpg",
+    "instruction": "Add a sun emoji above the temple."
+  },
+  {
+    "image": "048.jpg",
+    "instruction": "Crop to focus on the river and boats."
+  },
+  {
+    "image": "049.jpg",
+    "instruction": "Replace the bare trees with cherry blossom trees."
+  },
+  {
+    "image": "049.jpg",
+    "instruction": "Highlight the flowing stream with ColorPop.."
+  },
+  {
+    "image": "049.jpg",
+    "instruction": "Blur the background hills to emphasize the snow-covered foreground."
+  },
+  {
+    "image": "049.jpg",
+    "instruction": "Add a snowflake emoji near the middle of the stream."
+  },
+  {
+    "image": "049.jpg",
+    "instruction": "Crop to focus only on the stream and the trees on either side."
+  }
+]
