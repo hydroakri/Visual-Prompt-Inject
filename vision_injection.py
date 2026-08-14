@@ -20,6 +20,14 @@ import lpips
 
 import torch.nn.functional as F
 
+def _dejavu_bold_font_path():
+    # The upstream code hardcodes the Debian/Ubuntu font path
+    # (/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf), which doesn't exist on other
+    # distros/package layouts (e.g. NixOS). matplotlib bundles its own copy of DejaVu Sans,
+    # so resolve through it instead -- portable across whatever system this runs on.
+    import matplotlib.font_manager as fm
+    return fm.findfont(fm.FontProperties(family="DejaVu Sans", weight="bold"))
+
 class NaiveVisualAttack:
     def __init__(self, position="bottom_right"):
         self.position = position
@@ -50,7 +58,7 @@ class NaiveVisualAttack:
         font_size = ((W + H)//2) // 30
 
         
-        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        font_path = _dejavu_bold_font_path()
         font = ImageFont.truetype(font_path, font_size)
 
 
@@ -118,7 +126,7 @@ class EmojiWarningAttack(NaiveVisualAttack):
 
         # ===== 字体控制 =====
         font_size = ((W + H)//2) // 30
-        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        font_path = _dejavu_bold_font_path()
         font = ImageFont.truetype(font_path, font_size)
 
         # ===== 文本布局 =====
@@ -177,7 +185,7 @@ class CombineProAttack(NaiveVisualAttack):
 
         # ===== 字体控制 =====
         font_size = ((W + H)//2) // 30
-        font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        font_path = _dejavu_bold_font_path()
         font = ImageFont.truetype(font_path, font_size)
 
         # ===== 文本布局 =====

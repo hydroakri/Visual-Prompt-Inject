@@ -85,8 +85,11 @@ def run_defense_on_json(input_json, image_dir, output_json, defense_type, attack
                     continue
 
                 attacked_image = attacker.apply(image_path, entry['attack_instuction'])
+                tmp_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs", "tmp")
+                if not os.path.exists(tmp_dir):
+                    os.makedirs(tmp_dir)
                 attacked_image_path = os.path.join(
-                        "/bowen/d61-ai-security/work/cha818/visprog/tmp",
+                        tmp_dir,
                         f"attacked_temp_{i}.jpg"
                     )
                 attacked_image.save(attacked_image_path)

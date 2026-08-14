@@ -1,0 +1,1 @@
+from vision_injection import VisionInjection as MultimodalInjection

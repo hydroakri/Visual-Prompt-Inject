@@ -67,8 +67,11 @@ def attack_visprog_editing(input_json, image_dir, output_json, attack_type,cache
     if cache_dir is None:
         attacker = MultimodalInjection(attack_type)
     new_data = []
-    if not os.path.exists(f"/bowen/d61-ai-security/work/cha818/visprog/attack_sample/{attack_type}"):
-        os.makedirs(f"/bowen/d61-ai-security/work/cha818/visprog/attack_sample/{attack_type}")
+    output_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "outputs")
+    attack_sample_dir = os.path.join(output_root, "attack_sample", attack_type)
+    noised_dir = os.path.join(output_root, "noised")
+    if not os.path.exists(attack_sample_dir):
+        os.makedirs(attack_sample_dir)
 
     for i, entry in enumerate(dataset):
         image_path = os.path.join(image_dir, entry['image'])
@@ -103,7 +106,7 @@ def attack_visprog_editing(input_json, image_dir, output_json, attack_type,cache
             attacked_image = attacker.apply(image_path, entry['attack_instuction'])
             
             attacked_image_path = os.path.join(
-                f"/bowen/d61-ai-security/work/cha818/visprog/attack_sample/{attack_type}",
+                attack_sample_dir,
                 f"attacked_temp_{i}.jpg"
             )
             attacked_image.save(attacked_image_path)
@@ -119,12 +122,14 @@ def attack_visprog_editing(input_json, image_dir, output_json, attack_type,cache
             )
             attacked_image = transforms.ToPILImage()(attacked_image_tensor.squeeze(0).cpu())
 
+            if not os.path.exists(noised_dir):
+                os.makedirs(noised_dir)
             attacked_image_path = os.path.join(
-                "/bowen/d61-ai-security/work/cha818/visprog/noised",
+                noised_dir,
                 f"attacked_temp_{i}.jpg"
             )
             attacked_pth_path = os.path.join(
-                "/bowen/d61-ai-security/work/cha818/visprog/noised",
+                noised_dir,
                 f"attacked_temp_{i}.pth"
             )
 

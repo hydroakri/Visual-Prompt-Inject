@@ -1,5 +1,5 @@
 
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor,AutoModelForImageTextToText
+from transformers import Qwen2_5_VLForConditionalGeneration, AutoTokenizer, AutoProcessor,AutoModelForImageTextToText, BitsAndBytesConfig
 from transformers.generation import GenerationConfig
 import torch
 from transformers import AutoModel, GenerationConfig
@@ -17,17 +17,21 @@ from PIL import Image
 import torch
 
 
-tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct", trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen2.5-VL-3B-Instruct", trust_remote_code=True)
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
 model = AutoModelForImageTextToText.from_pretrained(
-            "Qwen/Qwen2.5-VL-7B-Instruct",
-            device_map={"": device},                        
-            torch_dtype=torch.bfloat16,
+            "Qwen/Qwen2.5-VL-3B-Instruct",
+            device_map={"": device},
+            quantization_config=BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=torch.bfloat16,
+                bnb_4bit_quant_type="nf4",
+            ),
             trust_remote_code=True
         )
-processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
-model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct", trust_remote_code=True)
+processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-3B-Instruct")
+model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen2.5-VL-3B-Instruct", trust_remote_code=True)
 
 # Function to generate caption with grounding
 def call_model(image_path, text_prompt):
