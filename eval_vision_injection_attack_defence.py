@@ -173,7 +173,7 @@ if __name__ == "__main__":
     parser.add_argument("--embed_model", type=str, default="all-MPNet-base-v2",
                         help="Embedding model for cosine similarity (e.g. all-MPNet-base-v2, all-MiniLM-L6-v2, intfloat/e5-large-v2)")
     parser.add_argument('--defense_type', type=str, nargs='+', required=True, choices=[
-        "purify_jpeg", "purify_bit", "purify_nrp", "signal_ocr", "signal_mllm", "filter_detect", "filter_choose"
+        "purify_jpeg", "purify_bit", "purify_nrp", "signal_ocr", "signal_mllm", "signal_lvlm", "filter_detect", "filter_choose"
     ])
     parser.add_argument("--detect", action="store_true",
                         help="If set, compute detected None% and average Jaccard between detected_instruction and attack_instuction (for non-None).")

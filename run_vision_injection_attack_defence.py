@@ -94,8 +94,10 @@ def run_defense_on_json(input_json, image_dir, output_json, defense_type, attack
                     )
                 attacked_image.save(attacked_image_path)
             if defense_type.startswith("purify"):
-                # 先放下
-                image_tensor = attacked_tensor
+                if cache_dir is not None:
+                    image_tensor = attacked_tensor
+                else:
+                    image_tensor = transforms.ToTensor()(attacked_image).unsqueeze(0)
                 purified_tensor = defender.apply(image_tensor).squeeze(0).cpu()
                 purified_image = transforms.ToPILImage()(purified_tensor.clamp(0, 1))
                 tmp_path = f"/tmp/defense_{i}.jpg"

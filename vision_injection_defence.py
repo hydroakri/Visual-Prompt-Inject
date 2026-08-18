@@ -10,8 +10,7 @@ import base64
 import numpy as np
 import easyocr
 from openai import OpenAI
-from pretrained_purifiers.nrp import NRP 
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ.setdefault("OPENAI_API_KEY", "")
 
 class PurifyDefense:
     def __init__(self, method="jpeg",device="cpu"):
@@ -47,6 +46,7 @@ class PurifyDefense:
         return torch.round(images * (levels - 1)) / (levels - 1)
 
     def _NRP_pur(self, images):
+        from pretrained_purifiers.nrp import NRP  # not vendored in this repo; only needed for this method
         netG = NRP(3, 3, 64, 23)
         state_dict = torch.load('pretrained_purifiers/NRP.pth', map_location=self.device)
         netG.load_state_dict(state_dict)
