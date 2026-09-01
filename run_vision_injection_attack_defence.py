@@ -125,7 +125,12 @@ def run_defense_on_json(input_json, image_dir, output_json, defense_type, attack
                     entry[f"defense_{defense_type}"] = program
                 
             elif defense_type == "filter_choose":
-                result = defender.apply(attacked_image_path, entry['user_instruction'])
+                # FilterDefense.apply()'s embodied-manipulation decision rule (the
+                # safety-hazard-vs-injection distinction) only fires on this exact
+                # string -- without it, `mode` silently defaults to "image editing"
+                # and the embodied branch never runs.
+                filter_mode = "embodied manipulation" if mode == "embodied" else "image editing"
+                result = defender.apply(attacked_image_path, entry['user_instruction'], mode=filter_mode)
                 entry[f"defense_{defense_type}_detect"] = result 
                 print(result)
                 if 'user' in result:
